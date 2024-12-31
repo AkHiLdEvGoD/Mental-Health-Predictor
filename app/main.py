@@ -167,8 +167,6 @@ def insights(input_data):
         st.markdown("- Start creating a budget, prioritizing essentials, and seeking professional financial advice if needed.")
     if input_data['Work/Study Hours'] > 5:
         st.markdown("- Set realistic goals, focus on time management, and allocate breaks to maintain a healthy balance between study/work and personal life.")
-    else: 
-        st.markdown("Your Mental Health looks **Good**. \nIf someone you know is depressed, be patient, listen without judgment, and encourage them to seek professional support.")
         
 def plots(data,feature_imp,prob):
 
